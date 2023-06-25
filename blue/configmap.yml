@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index-html-blue
+data:
+  index.html: |-
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+      <meta charset="UTF-8">
+    </head>
+    <body style="background-color: blue">
+      <h2>
+        Blue app.
+      </h2>
+    </body>
+    </html>
